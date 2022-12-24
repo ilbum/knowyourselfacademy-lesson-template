@@ -1,0 +1,33 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+// Include any default variable overrides here (though functions won't be available)
+$custom-colors: (
+  "first": #e16d54,
+  "second": #ffbb63,
+  "third": #ffdb5e,
+  "fourth": #d7dd67,
+  "fifth": #6dbae3,
+  "light": #f4f4f5,
+  "dark": #53565a,  // Pantone Cool Gray 11 --> #53565a
+  "warm-dark": #7B6E66,
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// Theme Color Overwrites
+// $primary: ;
+// $secondary: ;
+// $success: ;
+// $info: ;
+// $warning: ;
+// $danger: ;
+// $light: ;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
