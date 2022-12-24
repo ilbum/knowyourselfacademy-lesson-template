@@ -1,4 +1,4 @@
-# Knowyourself Bootstrap Template
+# Knowyourself Academy Lesson Template
 
 This is for creating lesson documents in HTML.
 
