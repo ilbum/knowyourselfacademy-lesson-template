@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Know Your Code">
+  <title>Know Your Code - Welcome</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="../assets/custom-bootstrap.css">
+  <link rel="stylesheet" href="https://cdn.shopify.com/s/files/1/1813/3837/files/custom-bootstrap.css">
+  <link rel="stylesheet" href="https://use.typekit.net/yyy1oov.css">
+  <link rel=" stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+  <!-- code-prettify -->
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+</head>
+
+<body>
+  <!-- div container -->
+  <div class="container">
+
+
+    <!-- header -->
+    <header class="py-3 mb-4 border-bottom">
+      <h1>
+        <img src="https://cdn.shopify.com/s/files/1/1813/3837/files/dr-bonyfide-pixel.png" alt="" height="75" class="me-2">
+        Know Your Code
+      </h1>
+    </header>
+
+
+    <!-- main -->
+    <main>
+
+      <!-- Content -->
+      <section id="#Content">
+        <div class="px-5 py-4 mb-4 border rounded-3 shadow bg-light fs-5">
+          <h2 class="fw-bold pt-2">It is all 1s and 0s</h2>
+          <p>
+            “In the end, it is all 1s and 0s.” It may be a comment you have encountered, but how could that be? Have you ever written just 1s and 0s?
+          </p>
+          <p>
+            We hear of people using languages like <code class="fw-bold text-primary">Python</code> or <code class="fw-bold text-primary">Javascript</code>. When we look at their screens, what they write are a series of statements that has a mix of english characters. Again, where are the 1s and 0s?
+          </p>
+          <p>
+            Let's take a step back and look at the first line of code most people write.
+          </p>
+          <pre class="prettyprint themed-grid-col"><code># Python
+print("hello world!")
+
+// Javascript
+console.log("hello world!");
+
+/*
+ *  The computer will print out "hello world!" on the command-line interface.
+ */</code></pre>
+
+          <p class="fw-bold text-danger">
+            <img src="kyc-assets/kyc-1-1.png" class="img-fluid" alt="" width="100%">
+            TODO Update image design
+          </p>
+          <p>
+            Looking a the image above, we can see that <code>hello world!</code> <strong>compiles<sup>*</sup></strong> into 1s and 0s. You will also be able to see that it is a different set of 1s and 0s for <code class="fw-bold text-primary">Python</code> and <code class="fw-bold text-primary">Javascript</code>.
+          </p>
+          <p>
+            This will drive home our first principle, the <strong class="text-primary">power of language</strong>. In and out of a computer we can represent the same ideas with different letters, symbols, and even objects. This is foundational to code, but even to <em>communicate with others</em>.
+          </p>
+        </div>
+
+        <h2>Terminology</h2>
+        <div class="px-5 py-4 mb-4 border rounded-3 shadow text-light bg-dark fs-5">
+          <h3 class="fw-bold pt-2">Compile</h3>
+          <p>
+            Compiling refers to the process of taking code in one language (typically easier to read) and outputting it in another language or another version of that language (typically harder to read).
+          </p>
+          <p>
+            <code class="fw-bold text-second">print("hello world!")</code> in <code class="fw-bold text-info">Python</code> is easier to read than a series of <code class="fw-bold text-second">1011101011010111 ...</code> (it would exceed over 1000 characters!).
+          </p>
+        </div>
+
+        <div class="px-5 py-4 mb-4 border rounded-3 shadow text-light bg-dark fs-5">
+          <h3 class="fw-bold pt-2">Command-Line Interface</h3>
+          <div class="row">
+            <div class="col-md-6 order-2 order-md-1 fs-5">
+              <p>
+                It is where the user can write commands for the computer to execute. Print statements are used to display information back to the user.
+              </p>
+              <p>
+                We generally use a graphical user interfaces with mouse or touch events and menus, but a lot of programming is still done with a command-line interface.
+              </p>
+            </div>
+            <div class="col-md-6 order-1 order-md-2">
+              <style>
+
+              </style>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Linux_command-line._Bash._GNOME_Terminal._screenshot.png" class="img-fluid" alt="Dr. Bonyfide" id="image-responsive-col">
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+
+    <!-- footer -->
+    <footer class="py-3 mt-4 text-muted border-top">
+      <span id="footer-copyright">
+        &copy; Knowyourself
+        <script>document.getElementById('footer-copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+      </span>
+    </footer>
+  </div>
+</body>
+
+</html>
